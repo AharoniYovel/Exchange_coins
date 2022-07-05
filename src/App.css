@@ -1,0 +1,20 @@
+/* css app global */
+
+.App {
+    min-height: 1000px;
+    background-image: url(/public/money.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+small{
+    color: white;
+}
+
+@media (max-width:768px) {
+    small {
+        color: black !important;
+        font-size: larger !important;
+    }
+
+}

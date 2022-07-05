@@ -1,0 +1,76 @@
+div .green {
+    background: linear-gradient(to right,
+            hsl(98 100% 62%),
+            hsl(204 100% 59%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1.1;
+}
+
+body {
+    background: rgb(4, 43, 72);
+
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    /* display: grid; */
+    place-content: center;
+    font-family: system-ui;
+    font-size: 1em;
+}
+
+h3, p, body {
+    margin: 0;
+}
+
+h1 {
+    color: #b5ff36;
+    font-family: cursive;
+}
+
+p {
+    font-family: "Dank Mono", ui-monospace, monospace;
+}
+
+html {
+    block-size: 100%;
+    inline-size: 100%;
+}
+
+input {
+    background: rgb(106, 190, 124) !important;
+    color: hsl(204 100% 5%) !important;
+    border-radius: 0.6em;
+    font-size: larger;
+}
+
+select {
+    background: rgb(106, 190, 124);
+    border-radius: 0.9em;
+    font-size: larger;
+
+}
+
+.BsArrowDownUp {
+    background: rgb(121, 104, 154);
+    color: black;
+    font-size: 3em;
+
+}
+
+.date {
+    margin-top: 400px !important;
+}
+
+@media (max-width:768px) {
+    .BsArrowDownUp {
+        background: rgb(121, 104, 154);
+        font-size: 3em;
+    }
+
+}
